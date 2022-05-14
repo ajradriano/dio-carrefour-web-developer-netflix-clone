@@ -1,54 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>FormulaFlix :: DIO Carrefour Web Developer</title>
 
-  <!-- 
-    Bootstrap 4
-   -->
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-        crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 
-  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/ff25aeb8ee.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-<nav class="header navbar d-flex align-items-center justify-content-start">
-  <a id="brand" class="navbar-brand mx-4" href="#">FormulaFlix</a>
-  <ul class="navbar-nav flex-row">
-    <li class="nav-item mx-2">
-      <a href="#" target="_blank" rel="noopener noreferrer">Inicio</a>
-    </li>
-    <li class="nav-item mx-2">
-      <a href="#" target="_blank" rel="noopener noreferrer">Corridas</a>
-    </li>
-    <li class="nav-item mx-2">
-      <a href="#" target="_blank" rel="noopener noreferrer">Campeonatos</a>
-    </li>
-  </ul>
-</nav>
-
-
-  <!-- 
-    Bootstrap 4 Injections
-  -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
-          crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
-          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
-          crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
-          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
-          crossorigin="anonymous">
-  </script>
+  <header>
+    <div class="container">
+      <h2 id="brand">FormulaFlix</h2>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Corridas</a>
+        <a href="#">Pilotos</a>
+        <a href="#">Equipes</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="spotlight-race">
+      <div class="container">
+        <h3 class="title">GP do Brasil</h3>
+        <p class="description">
+          Relembre as emocoes do Grande Prêmio do Brasil de Formula 1 disputada em 12 de novembro de 2017 no Autódromo José Carlos Pace, São Paulo, Brasil (Interlagos).
+        </p>
+        <div class="buttons">
+          <button role="button" class="btn btn-primary"><i class="fa-solid fa-play"></i> Assista Agora</button>
+          <button role="button" class="btn btn-secondary"><i class="fa-solid fa-plus"></i> Lista</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="carousel-races">
+    <div class="other-races">Outras Corridas</div>
+    <div class="owl-carousel owl-theme">
+      <div class="box-race"><img alt="poster of abudhabi race" src="assets/posters/abudhabi.jpg"></div>
+      <div class="box-race"><img alt="poster of australian race" src="assets/posters/australian.jpg"></div>
+      <div class="box-race"><img alt="poster of austrian race" src="assets/posters/austrian.jpg"></div>
+      <div class="box-race"><img alt="poster of azerbaijan race" src="assets/posters/azerbaijan.jpg"></div>
+      <div class="box-race"><img alt="poster of belgian race" src="assets/posters/belgian.jpg"></div>
+      <div class="box-race"><img alt="poster of brazilian race" src="assets/posters/brazilian.jpg"></div>
+      <div class="box-race"><img alt="poster of british race" src="assets/posters/british.jpg"></div>
+      <div class="box-race"><img alt="poster of canadian race" src="assets/posters/canadian.jpg"></div>
+      <div class="box-race"><img alt="poster of chinese race" src="assets/posters/chinese.jpg"></div>
+      <div class="box-race"><img alt="poster of hungarian race" src="assets/posters/hungarian.jpg"></div>
+      <div class="box-race"><img alt="poster of italian race" src="assets/posters/italian.jpg"></div>
+      <div class="box-race"><img alt="poster of japanese race" src="assets/posters/japanese.jpg"></div>
+      <div class="box-race"><img alt="poster of malaysian race" src="assets/posters/malaysian.jpg"></div>
+      <div class="box-race"><img alt="poster of monaco race" src="assets/posters/monaco.jpg"></div>
+      <div class="box-race"><img alt="poster of singapore race" src="assets/posters/singapore.jpg"></div>
+      <div class="box-race"><img alt="poster of spanish race" src="assets/posters/spanish.jpg"></div>
+    </div>
+  </section>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
